@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  height: 100vh;
+  background: #353535;
+}
+
+.view {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 80vh;
+}
+.view > img {
+  max-height: 75vh;
+}
+
+.nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+  padding: 3vh 10vw;
+}
+.nav button {
+  background-color: inherit;
+  border: 0;
+}
+.nav button:hover {
+  cursor: pointer;
+}
+
+.nav-button:hover > i::before {
+  color: rgb(220, 129, 129);
+  transition: all 0.3s;
+}
+
+.dots {
+  display: flex;
+  gap: 20px;
+}
+
+.current > i::before {
+  color: red;
+}/*# sourceMappingURL=style.css.map */
