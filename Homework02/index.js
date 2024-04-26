@@ -9,6 +9,12 @@ let currentEl = document.querySelector('.current');
 const leftBtn = document.querySelector('button.arrow.left.nav-button');
 const rightBtn = document.querySelector('button.arrow.right.nav-button');
 
+/**
+ * Смена активной картинки
+ * @param {*} step направление движения
+ * @param {*} stop индекс крайней точки
+ * @param {*} jump перемещение на противоположный край
+ */
 const changePicture = (step, stop, jump) => {
     document.querySelector(`.btn${currentImg}`).classList.remove('current');
     let nextImg = currentImg === stop ? jump : currentImg + step;
