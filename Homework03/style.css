@@ -1,0 +1,63 @@
+.title {
+    text-align: center;
+}
+
+.photo-box {
+    display: flex;
+    justify-content: center;
+}
+
+.photo {
+    max-width: 80vw;
+    max-height: 60vh;
+}
+
+.likes {
+    max-height: 50px;
+}
+
+.info-box {
+    max-width: 80vw;
+    margin-left: 10vw;
+}
+
+.content-info-box {
+    display: flex;
+    justify-content: space-around;
+}
+
+.likes-box {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.like {
+    display: flex;
+    align-items: center;
+    height: 20px;
+    width: 20px;
+}
+
+.like:hover {
+    cursor: pointer;
+}
+
+.counter {
+    font-size: 1.4em;
+}
+
+.author {
+    font-size: 1.4em;
+    font-style: bold;
+}
+
+.description-box {
+    display: flex;
+    justify-content: center;
+}
+
+.description {
+    font-size: 1.2em;
+    font-style: italic;
+}
