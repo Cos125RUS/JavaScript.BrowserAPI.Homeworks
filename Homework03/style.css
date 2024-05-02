@@ -1,10 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    background-color: black;
+    color: white !important;
+}
+
 .title {
     text-align: center;
+    padding-top: 10px;
+    margin-bottom: 10px;
+}
+
+.card-box {
+    border: 2px solid rgb(174, 172, 172);
+    border-radius: 1em;
+    background-color: rgb(42, 41, 41);
+    margin: 20px;
+    padding: 20px;
 }
 
 .photo-box {
     display: flex;
     justify-content: center;
+    padding: 10px;
 }
 
 .photo {
@@ -16,14 +37,12 @@
     max-height: 50px;
 }
 
-.info-box {
-    max-width: 80vw;
-    margin-left: 10vw;
-}
+/* .info-box {
+} */
 
 .content-info-box {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 .likes-box {
@@ -60,6 +79,7 @@
 .description {
     font-size: 1.2em;
     font-style: italic;
+    text-align: center;
 }
 
 .footer {
@@ -68,5 +88,5 @@
 }
 
 .load-more-btn {
-    background-color: aqua;
+    background-color: rgb(89, 90, 90);
 }
