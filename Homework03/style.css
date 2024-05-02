@@ -61,3 +61,12 @@
     font-size: 1.2em;
     font-style: italic;
 }
+
+.footer {
+    display: flex;
+    justify-content: center;
+}
+
+.load-more-btn {
+    background-color: aqua;
+}
