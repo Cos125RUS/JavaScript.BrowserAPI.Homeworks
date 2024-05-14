@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    background-color: black;
+    color: white !important;
+}
+
+.title {
+    text-align: center;
+    padding-top: 10px;
+    margin-bottom: 10px;
+}
+
+.card-box {
+    border: 2px solid rgb(174, 172, 172);
+    border-radius: 1em;
+    background-color: rgb(42, 41, 41);
+    margin: 20px;
+    padding: 20px;
+}
+
+.photo-box {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+.photo {
+    max-width: 80vw;
+    max-height: 60vh;
+}
+
+.likes {
+    max-height: 50px;
+}
+
+/* .info-box {
+} */
+
+.content-info-box {
+    display: flex;
+    justify-content: space-between;
+}
+
+.likes-box {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.like {
+    display: flex;
+    align-items: center;
+    height: 20px;
+    width: 20px;
+}
+
+.like:hover {
+    cursor: pointer;
+}
+
+.counter {
+    font-size: 1.4em;
+}
+
+.author {
+    font-size: 1.4em;
+    font-style: bold;
+}
+
+.description-box {
+    display: flex;
+    justify-content: center;
+}
+
+.description {
+    font-size: 1.2em;
+    font-style: italic;
+    text-align: center;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+}
+
+.load-more-btn {
+    background-color: rgb(89, 90, 90);
+}
